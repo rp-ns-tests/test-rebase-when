@@ -2,5 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>rp-ns-tests/renovate-config"
-  ]
+  ],
+  "rebaseWhen": "automerging"
 }
